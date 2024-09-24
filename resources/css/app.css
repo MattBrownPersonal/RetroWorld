@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'horizon';
+    src: url('/fonts/horizon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-square {
+    @apply flex items-center justify-center rounded-3xl p-4 border-4
+}
